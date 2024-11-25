@@ -1,0 +1,24 @@
+@import "../partials/irokocolors";
+
+:root {
+  $iroko-primary-blue: $iroko-primary-blue;
+  --primary-color: #{$iroko-primary-blue};
+  --primary-color-dark: #{$iroko-primary-blue-dark};
+  --brand-warning: #{$brand-red};
+  --default-text-color: #{$black};
+  --secondary-text-color: #{$grey};
+  --white-text-color: #{$white};
+  --bg-color: #{$bg-color};
+  --card-bg-color: #{$bg-plain};
+  --hint-text: #{$iroko-primary-blue};
+  --btn-alt-nuetral: #{$dark-grey};
+
+  --iroko-primary-100: #{$iroko-primary-blue-100};
+  --iroko-primary-200: #{$iroko-primary-blue-200};
+  --iroko-primary-300: #{$iroko-primary-blue-300};
+  --iroko-primary-400: #{$iroko-primary-blue-400};
+  --iroko-primary-500: #{$iroko-primary-blue-500};
+  --iroko-primary-600: #{$iroko-primary-blue-600};
+
+  --danger-100: #{$disabled-red};
+}

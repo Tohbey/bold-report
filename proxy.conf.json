@@ -1,0 +1,13 @@
+{
+  "/customer": {
+    "target": "http://localhost:8001",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/utility": {
+    "target": "http://localhost:8001",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}

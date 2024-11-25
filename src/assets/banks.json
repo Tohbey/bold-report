@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "currencyCode": "COMP123",
+    "currencySymbol": "001",
+    "currencySubUnit": "Bank A",
+    "currencyName": "123456",
+    "decimalPlace": "12345678",
+    "format": "Company A Account"
+  },
+  {
+    "id": 1,
+    "currencyCode": "COMP123",
+    "currencySymbol": "001",
+    "currencySubUnit": "Bank A",
+    "currencyName": "123456",
+    "decimalPlace": "12345678",
+    "format": "Company A Account"
+  },
+  {
+    "id": 1,
+    "currencyCode": "COMP123",
+    "currencySymbol": "001",
+    "currencySubUnit": "Bank A",
+    "currencyName": "123456",
+    "decimalPlace": "12345678",
+    "format": "Company A Account"
+  }
+]

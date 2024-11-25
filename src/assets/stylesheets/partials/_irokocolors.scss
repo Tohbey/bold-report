@@ -1,0 +1,23 @@
+$iroko-primary-blue: #1C73E8;
+$iroko-primary-blue-dark: #1C73E8;
+$brand-red:#EB3535;
+$white: #ffffff;
+$black: #000000;
+$grey1:#E5E5E5;
+$grey2:#D5D5D5;
+$grey: #757575;
+$dark-grey: #585B68;
+$bg-color: #F8F9FD;
+$bg-plain: #FFFFFF;
+$red: #FF0000;
+
+$iroko-primary-blue-400: $iroko-primary-blue;
+$iroko-primary-blue-100: lighten($iroko-primary-blue-400, 30%);
+$iroko-primary-blue-200: lighten($iroko-primary-blue-400, 20%);
+$iroko-primary-blue-300: lighten($iroko-primary-blue-400, 10%);
+$iroko-primary-blue-500: darken($iroko-primary-blue-400, 10%);
+$iroko-primary-blue-600: darken($iroko-primary-blue-400, 20%);
+
+$iroko-secondary-blue-400: $iroko-primary-blue-dark;
+
+$disabled-red: lighten($red, 30%);

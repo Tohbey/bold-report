@@ -1,0 +1,10 @@
+{
+  "/customer": {
+    "target": "https://api.infrestng.com/",
+    "secure": false
+  },
+  "/utility": {
+    "target": "https://api.infrestng.com/",
+    "secure": false
+  }
+}

@@ -1,0 +1,278 @@
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  z-index: 10;
+}
+
+.navbar-toggle .icon-bar {
+  width: 32px;
+  height: 4px;
+  border-radius: 0;
+}
+
+.icon-bar.short {
+  width: 22px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  margin-top: 4px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+  z-index: 10;
+}
+
+.container-fluid {
+  //padding-left: $container-pad-size;
+}
+
+.navbar {
+  min-height: 79px;
+  max-height: 79px;
+  border-radius: 0;
+
+  .fa-2 {
+    font-size: 1.8em;
+  }
+}
+
+.nav>li>a>img {
+  width: 25px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  margin-top: 0;
+}
+
+select * {
+  padding: 20px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #e7e7e7;
+  border-right: 0;
+  border-left: 0;
+  margin-bottom: 0;
+  .navbar-nav > li > a {
+    color: $gray-base;
+  }
+}
+
+.navbar-default .navbar-nav > .open > a.notifications-toggle,
+.navbar-default .navbar-nav > .open > a.notifications-toggle:hover,
+.navbar-default .navbar-nav > .open > a.notifications-toggle:focus {
+  background: transparent;
+}
+
+/*
+.navbar-brand {
+  padding: 15px 15px;
+}
+*/
+
+.navbar-nav {
+  padding-top: 5px;
+}
+
+.dropdown-menu:before {
+  right: 9px;
+  left: unset;
+}
+
+.dropdown-menu:after {
+  right: 10px;
+  left: unset;
+}
+
+.dropdown-menu > li > a {
+  cursor: pointer;
+}
+
+.navbar-default {
+  border:0;
+}
+
+.divider-line {
+  border: 1px solid #d8d8d87a;
+  height: 28px;
+  margin-top: 13px;
+  margin-right: 13px
+}
+
+.user-text{
+  padding-left: 10px;
+  color: #000000;
+  letter-spacing: 1px;
+  //font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.company-info-wrapper {
+  //margin-left: 10%;
+  //width: 400px;
+
+  .company-name {
+    color: $brand-info !important;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .company-icon {
+    display: inline-block;
+    max-width: 50px;
+    max-height: 50px;
+    padding-bottom: 10px;
+  }
+}
+
+/*.account-info-wrapper {
+  width: 100%;
+  text-align: right;
+
+  .account-name {
+    display: inline-block;
+  }
+  .last-login {
+    display: inline-block;
+  }
+}*/
+
+
+.account-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0px 10px 5px 10px;
+  margin-top: 5px;
+
+  .account-image-wrapper{
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    position: relative;
+
+    .account-display-photo{
+      width: 45px;
+      max-height: 45px;
+      position: absolute;
+      top: -5%;
+      height: 45px;
+    }
+  }
+}
+
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .company-name.text-info {
+    display: none;
+  }
+
+  .divider-line {
+    display: none !important;
+  }
+
+  .navbar{
+    min-height: 60px;
+    max-height: 60px;
+  }
+  .navbar-right{
+    float: right;
+  }
+  .navbar-right > li {
+    float: left;
+  }
+  .company-info-wrapper{
+    margin-left: -15px;
+    width: auto;
+    float: left;
+    .company-icon {
+      max-width: 40px;
+      max-height: 40px;
+      padding-bottom: 0;
+      margin-top: -82px;
+      margin-left: 75px;
+      z-index: 0;
+    }
+
+    .company-name{
+      font-size: 1.5rem;
+    }
+  }
+  .iroko-brand{
+    max-height: 35px;
+  }
+  iroko-language-selector{
+    display: none;
+  }
+  .account-info-wrapper{
+    display: none;
+  }
+  .account-image-wrapper{
+    display: none;
+  }
+
+  //max-height: 20px;
+  //Just Added
+  .navbar-collapse.in {
+    overflow-y: inherit;
+  }
+
+  .dropdown-menu::before,
+  .dropdown-menu::after {
+    //border: none;
+    content: none !important;
+  }
+
+  .navbar-nav .open .dropdown-menu {
+    left: auto;
+    right: 0;
+    margin-top: 10px;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+
+  .navbar-nav > li > .dropdown-menu {
+    margin-top: 1px;
+  }
+
+  .navbar-nav {
+    margin: 0.5px -15px;
+    //padding-top: 5px;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+  }
+
+
+  .navbar-header {
+    float: none;
+  }
+}
+
+.logo-container{
+  width: 260px;
+  max-width: 260px;
+  background-color: #6EAC54;
+  padding: 20px;
+}

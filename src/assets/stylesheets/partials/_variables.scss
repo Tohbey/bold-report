@@ -1,0 +1,54 @@
+//
+// Variables
+// --------------------------------------------------
+
+$gray-base:              #000 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-light:             lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+$gray-footer: #37383c !default;
+$gray-sidebar: #e5e4ea !default;
+$white: #ffffff !default;
+$black: #000000 !default;
+$brand-primary:         #1C73E8 !default;
+$brand-primary-lighter:         #99bbff !default;
+$brand-primary-subtle:         #e3edff !default;
+$brand-success:         #06c270!default;
+$brand-info:            #0063f7 !default;
+$brand-warning:         #ffcc00 !default;
+$brand-danger:          #ff3b3b !default;
+$brand-secondary:       #f9f8fc !default;
+$brand-error:           #fe6161 !default;
+$color-submit-button:   #1C73E8 !default;
+
+$brand-primary-dark:    #2659BF !default;
+$brand-active: #333333;
+$brand-inactive: #9C9C9C;
+
+
+$container-pad-size:    25px;
+$sidebar-list-pad-size: 20px;
+$button-radius:         20px;
+
+$laptop-medium: 75em;       //1200px
+$laptop-small: 64em;        //1024px
+$tablet-big: 56em;          //896px
+$tablet-small: 48em;        //768px
+$tablet: 37.28em;           //596.5px
+$mobile-large:  26.8em;    //429px
+$mobile-medium: 23.46em;    //375px
+$mobile-small:  20.1em;     //320px
+
+$font-primary: 'ibm-plex-sans-regular';
+$font-header: 'ibm-plex-sans-bold';
+//font sizes
+$font-size-xxs: 1.2rem;
+$font-size-xs: 1.3rem;
+$font-size-sm: 1.4rem;
+$font-size-md: 1.6rem;
+$font-size-lg: 1.8rem;
+$font-size-xl: 2rem;
+$font-size-xxl: 2.2rem;
+$font-size-heading: 3.2rem;
